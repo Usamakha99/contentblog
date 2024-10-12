@@ -11,7 +11,7 @@ const blog =
   };
 
 
- 
+  
   return (
     <div className="max-w-5xl mx-auto p-4">
       
