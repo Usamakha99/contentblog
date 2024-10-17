@@ -20,40 +20,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-gray-50 pt-32 dark:bg-gray-900">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-5xl font-extrabold  text-gray-800 dark:text-gray-200 mb-12 text-center">Top Blogs</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-                <img src="https://images.pexels.com/photos/16129703/pexels-photo-16129703/free-photo-of-man-coding-on-computers-sitting-at-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 1" className="w-full h-64 object-cover" />
-                <div className="p-6">
-                  <h3 className="text-2xl font-semibold mb-3 text-gray-800">Blog Title 1</h3>
-                  <p className="text-gray-600 mb-5">A brief description of the blog content goes here. It should be engaging and informative.</p>
-                  <Button className="m-2" variant="outline" href="/">Read more</Button>
-                </div>
-              </div>
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-                <img src="https://images.pexels.com/photos/16023919/pexels-photo-16023919/free-photo-of-photo-of-a-html-code.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 2" className="w-full h-64 object-cover" />
-                <div className="p-6">
-                  <h3 className="text-2xl font-semibold mb-3 text-gray-800">Blog Title 2</h3>
-                  <p className="text-gray-600 mb-5">A brief description of the blog content goes here. It should be engaging and informative.</p>
-                  <Button className="m-2" variant="outline" href="/">Read more</Button>
-                </div>
-              </div>
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-                <img src="https://images.pexels.com/photos/270488/pexels-photo-270488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 3" className="w-full h-64 object-cover" />
-                <div className="p-6">
-                  <h3 className="text-2xl font-semibold mb-3 text-gray-800">Blog Title 3</h3>
-                  <p className="text-gray-600 mb-5">A brief description of the blog content goes here. It should be engaging and informative.</p>
-                  <Button className="m-2" variant="outline" href="/">Read more</Button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <section id="pricing" className="py-12 bg-gray-100 dark:bg-gray-800 pt-20">
+        <section id="pricing" className="py-16 bg-gray-100 dark:bg-gray-800 pt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl font-bold text-center mb-12">
               Pricing Plans {/* Centered Heading */}
@@ -377,6 +344,42 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className="bg-gray-50 pt-32 dark:bg-gray-900">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-5xl font-extrabold  text-gray-800 dark:text-gray-200 mb-12 text-center">Top Blogs</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+                <img src="https://images.pexels.com/photos/16129703/pexels-photo-16129703/free-photo-of-man-coding-on-computers-sitting-at-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 1" className="w-full h-64 object-cover" />
+                <div className="p-6 ">
+                  <h3 className="text-2xl font-semibold mb-3 text-gray-800">Blog Title 1</h3>
+                  <p className="text-gray-600 mb-5">A brief description of the blog content goes here. It should be engaging and informative.</p>
+                  <Button className="m-2" variant="outline" href="/">Read more</Button>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+                <img src="https://images.pexels.com/photos/16023919/pexels-photo-16023919/free-photo-of-photo-of-a-html-code.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 2" className="w-full h-64 object-cover" />
+                <div className="p-6">
+                  <h3 className="text-2xl font-semibold mb-3 text-gray-800">Blog Title 2</h3>
+                  <p className="text-gray-600 mb-5">A brief description of the blog content goes here. It should be engaging and informative.</p>
+                  <Button className="m-2" variant="outline" href="/">Read more</Button>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+                <img src="https://images.pexels.com/photos/270488/pexels-photo-270488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 3" className="w-full h-64 object-cover" />
+                <div className="p-6">
+                  <h3 className="text-2xl font-semibold mb-3 text-gray-800">Blog Title 3</h3>
+                  <p className="text-gray-600 mb-5">A brief description of the blog content goes here. It should be engaging and informative.</p>
+                  <Button className="m-2" variant="outline" href="/">Read more</Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+
+       
 
 
 
