@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center justify-end w-full">
             <span className="flex items-center justify-start w-full text-xl font-bold mr-6 ">!!!!</span>
 
-          <div className="hidden md:flex md:space-x-3 items-center">
+          <div className=" hidden md:flex md:space-x-8 items-center ">
   <Link
     href="/"
     className="text-white-800 hover:scale-105 hover:font-semibold transition-transform duration-300 rounded-md text-sm font-medium "  >
