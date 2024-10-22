@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-4 bg-background/50 sticky top-0  backdrop-blur border-b z-10">
+    <nav className="p-4 bg-background/50 sticky top-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between h-8">
           <div className="flex items-center justify-end w-full">
